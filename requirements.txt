@@ -1,0 +1,52 @@
+# Requirements for SCM Project: Transportation Route Optimization, Delivery Analysis, and Warehouse Location Analysis
+
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine learning and optimization
+scikit-learn>=1.0.0
+scikit-optimize>=0.9.0
+ortools>=9.0.0  # Google OR-Tools for optimization
+pulp>=2.6.0  # Linear programming solver
+# TensorFlow removed due to Python 3.14 incompatibility
+
+# Reinforcement Learning
+torch>=1.12.0  # PyTorch (preferred for RL)
+stable-baselines3>=1.6.0  # RL algorithms library
+gymnasium>=0.26.0  # RL environments (successor to OpenAI Gym)
+ray[rllib]>=2.0.0  # Distributed RL framework (optional, for advanced RL)
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+folium>=0.12.0  # For geographical visualization
+
+# Time series analysis and forecasting
+statsmodels>=0.13.0
+prophet>=1.1.0  # Facebook Prophet for time series forecasting
+
+# Geographical and routing
+geopy>=2.2.0
+geopandas>=0.11.0
+osmnx>=1.1.0  # OpenStreetMap network analysis
+
+# Jupyter and development
+jupyter>=1.0.0
+notebook>=6.4.0
+ipykernel>=6.0.0
+
+# Utilities
+requests>=2.25.0
+tqdm>=4.62.0
+python-dotenv>=0.19.0  # For environment variables
+
+# Database and data storage (optional)
+sqlalchemy>=1.4.0
+# sqlite3 is built-in with Python, no need to install
+
+# Testing and validation
+pytest>=6.2.0
+pytest-cov>=2.12.0
