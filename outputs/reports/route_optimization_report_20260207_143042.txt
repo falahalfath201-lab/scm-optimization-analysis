@@ -1,0 +1,197 @@
+
+======================================================================
+ROUTE OPTIMIZATION ANALYSIS REPORT
+======================================================================
+Generated: 20260207_143042
+
+BASELINE METRICS:
+----------------------------------------------------------------------
+Total Orders: 180,519
+
+ROUTE OPTIMIZATION RESULTS:
+----------------------------------------------------------------------
+
+======================================================================
+Region: PR
+======================================================================
+Total Orders: 69,373
+Unique Locations: 15
+Depot Coordinates: (np.float64(18.268877792666668), np.float64(-66.02611287533334))
+
+Number of Vehicles: 3
+
+----------------------------------------------------------------------
+VEHICLE 1
+----------------------------------------------------------------------
+Total Stops: 8
+Route Distance: 5.95 km
+Estimated Time: 88.92 minutes
+
+Route Sequence:
+   Start: DEPOT at (18.2689, -66.0261)
+   Stop 1: Location (18.2840, -66.0371)
+   Stop 2: Location (18.2834, -66.0371)
+   Stop 3: Location (18.2828, -66.0371)
+   Stop 4: Location (18.2795, -66.0371)
+   Stop 5: Location (18.2784, -66.0371)
+   Stop 6: Location (18.2753, -66.0371)
+   Stop 7: Location (18.2702, -66.0371)
+   Stop 8: Location (18.2616, -66.0371)
+   Stop 9: Location (18.2689, -66.0261)
+   Return: DEPOT at (18.2689, -66.0261)
+
+----------------------------------------------------------------------
+VEHICLE 2
+----------------------------------------------------------------------
+Total Stops: 1
+Route Distance: 42.93 km
+Estimated Time: 74.40 minutes
+
+Route Sequence:
+   Start: DEPOT at (18.2689, -66.0261)
+   Stop 1: Location (18.3958, -65.8729)
+   Stop 2: Location (18.2689, -66.0261)
+   Return: DEPOT at (18.2689, -66.0261)
+
+----------------------------------------------------------------------
+VEHICLE 3
+----------------------------------------------------------------------
+Total Stops: 6
+Route Distance: 14.14 km
+Estimated Time: 81.21 minutes
+
+Route Sequence:
+   Start: DEPOT at (18.2689, -66.0261)
+   Stop 1: Location (18.2538, -66.0370)
+   Stop 2: Location (18.2515, -66.0371)
+   Stop 3: Location (18.2425, -66.0371)
+   Stop 4: Location (18.2338, -66.0371)
+   Stop 5: Location (18.2332, -66.0371)
+   Stop 6: Location (18.2073, -66.0371)
+   Stop 7: Location (18.2689, -66.0261)
+   Return: DEPOT at (18.2689, -66.0261)
+
+
+======================================================================
+Region: CA
+======================================================================
+Total Orders: 29,223
+Unique Locations: 15
+Depot Coordinates: (np.float64(35.18397801866666), np.float64(-119.30227508))
+
+Number of Vehicles: 3
+
+----------------------------------------------------------------------
+VEHICLE 1
+----------------------------------------------------------------------
+Total Stops: 8
+Route Distance: 500.44 km
+Estimated Time: 830.66 minutes
+
+Route Sequence:
+   Start: DEPOT at (35.1840, -119.3023)
+   Stop 1: Location (35.3625, -119.0187)
+   Stop 2: Location (34.0766, -117.6141)
+   Stop 3: Location (33.7825, -118.1922)
+   Stop 4: Location (33.8987, -118.1746)
+   Stop 5: Location (33.9094, -118.1254)
+   Stop 6: Location (34.1589, -118.1809)
+   Stop 7: Location (34.1259, -118.2910)
+   Stop 8: Location (34.2034, -118.6059)
+   Stop 9: Location (35.1840, -119.3023)
+   Return: DEPOT at (35.1840, -119.3023)
+
+----------------------------------------------------------------------
+VEHICLE 2
+----------------------------------------------------------------------
+Total Stops: 5
+Route Distance: 925.17 km
+Estimated Time: 1437.76 minutes
+
+Route Sequence:
+   Start: DEPOT at (35.1840, -119.3023)
+   Stop 1: Location (36.6763, -121.6565)
+   Stop 2: Location (37.2922, -121.8813)
+   Stop 3: Location (37.4903, -121.9271)
+   Stop 4: Location (37.7740, -121.9666)
+   Stop 5: Location (38.6118, -121.2829)
+   Stop 6: Location (35.1840, -119.3023)
+   Return: DEPOT at (35.1840, -119.3023)
+
+----------------------------------------------------------------------
+VEHICLE 3
+----------------------------------------------------------------------
+Total Stops: 2
+Route Distance: 585.10 km
+Estimated Time: 897.65 minutes
+
+Route Sequence:
+   Start: DEPOT at (35.1840, -119.3023)
+   Stop 1: Location (33.1859, -117.3659)
+   Stop 2: Location (33.2112, -117.2511)
+   Stop 3: Location (35.1840, -119.3023)
+   Return: DEPOT at (35.1840, -119.3023)
+
+
+======================================================================
+Region: NY
+======================================================================
+Total Orders: 11,327
+Unique Locations: 15
+Depot Coordinates: (np.float64(41.78437423799999), np.float64(-75.89538777733333))
+
+Number of Vehicles: 3
+
+----------------------------------------------------------------------
+VEHICLE 1
+----------------------------------------------------------------------
+Total Stops: 6
+Route Distance: 701.78 km
+Estimated Time: 1112.67 minutes
+
+Route Sequence:
+   Start: DEPOT at (41.7844, -75.8954)
+   Stop 1: Location (43.1882, -77.5671)
+   Stop 2: Location (43.1689, -78.6922)
+   Stop 3: Location (43.0291, -78.8734)
+   Stop 4: Location (43.0140, -78.8791)
+   Stop 5: Location (42.9666, -78.7419)
+   Stop 6: Location (42.4201, -79.3132)
+   Stop 7: Location (41.7844, -75.8954)
+   Return: DEPOT at (41.7844, -75.8954)
+
+----------------------------------------------------------------------
+VEHICLE 2
+----------------------------------------------------------------------
+Total Stops: 8
+Route Distance: 496.17 km
+Estimated Time: 824.26 minutes
+
+Route Sequence:
+   Start: DEPOT at (41.7844, -75.8954)
+   Stop 1: Location (40.5844, -74.1599)
+   Stop 2: Location (40.7456, -73.9793)
+   Stop 3: Location (40.7421, -73.8696)
+   Stop 4: Location (40.7017, -73.8084)
+   Stop 5: Location (40.5995, -73.7625)
+   Stop 6: Location (40.6549, -73.5871)
+   Stop 7: Location (40.8635, -73.8705)
+   Stop 8: Location (40.8703, -73.8706)
+   Stop 9: Location (41.7844, -75.8954)
+   Return: DEPOT at (41.7844, -75.8954)
+
+----------------------------------------------------------------------
+VEHICLE 3
+----------------------------------------------------------------------
+Total Stops: 1
+Route Distance: 326.56 km
+Estimated Time: 499.84 minutes
+
+Route Sequence:
+   Start: DEPOT at (41.7844, -75.8954)
+   Stop 1: Location (43.2166, -75.4560)
+   Stop 2: Location (41.7844, -75.8954)
+   Return: DEPOT at (41.7844, -75.8954)
+
+
+======================================================================

@@ -1,0 +1,39 @@
+
+======================================================================
+COST OPTIMIZATION ANALYSIS REPORT
+======================================================================
+Generated: 20260207_131218
+
+BASELINE METRICS:
+----------------------------------------------------------------------
+Total Orders: 180,519
+Total Revenue: $36,784,735.01
+Total Profit: $3,966,902.97
+Profit Margin: 10.78%
+
+OPTIMIZATION RESULTS:
+----------------------------------------------------------------------
+
+Current Shipping Cost: $1,551,555.00
+Optimized Shipping Cost: $1,218,145.00
+Savings: $333,410.00 (21.5%)
+Expected Service Level: 60.2%
+
+Recommended Mode Distribution:
+   Standard Class: 135,440 orders (75.0%)
+   Second Class: 27,048 orders (15.0%)
+   First Class: 18,031 orders (10.0%)
+
+
+COST-BENEFIT ANALYSIS:
+----------------------------------------------------------------------
+Best Strategy: All First Class
+
+Strategy                            Total Cost
+--------------------------------------------------
+       all_standard             $9,025,950.00
+[BEST] all_express              $4,061,677.50
+       value_based              $6,151,180.00
+       risk_based               $4,469,387.50
+
+======================================================================

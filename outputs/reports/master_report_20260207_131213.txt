@@ -1,0 +1,49 @@
+
+======================================================================
+SUPPLY CHAIN OPTIMIZATION - MASTER REPORT
+======================================================================
+Generated: 2026-02-07 13:12:52
+Report ID: 20260207_131213
+
+EXECUTIVE SUMMARY:
+----------------------------------------------------------------------
+
+Total Orders Analyzed: 180,519
+Analysis Period: 2015-01-01 00:00:00 to 2018-01-31 23:38:00
+
+Key Metrics:
+   Avg Delivery Time: 3.50 days
+   On-Time Delivery Rate: 45.2%
+   Total Revenue: $36,784,735.01
+   Total Profit: $3,966,902.97
+   Profit Margin: 10.78%
+
+
+PIPELINES EXECUTED:
+----------------------------------------------------------------------
+Total: 2 | Successful: 2 | Failed: 0
+
+   [OK] Cost Optimization
+   [OK] Risk Analysis
+
+
+KEY FINDINGS:
+----------------------------------------------------------------------
+
+Cost Optimization:
+   - Potential Savings: $333,410.00 (21.5%)
+
+Risk Analysis:
+   - Best Risk Model: rf
+
+
+RECOMMENDATIONS:
+----------------------------------------------------------------------
+1. Review detailed pipeline reports for specific recommendations
+2. Implement cost optimization strategies for maximum savings
+3. Focus on high-risk orders identified by risk analysis
+4. Consider warehouse location optimization for long-term strategy
+
+======================================================================
+END OF MASTER REPORT
+======================================================================
